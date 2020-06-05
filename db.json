@@ -4,8 +4,8 @@
       "id": 1,
       "message": "server 0007 down",
       "attention": true,
-      "tech": "Sam Smith",
-      "date": "2020-06-03T20:20:39.631Z"
+      "tech": "Brendan Cooney",
+      "date": "2020-06-05T23:43:04.037Z"
     },
     {
       "id": 2,
@@ -34,6 +34,20 @@
       "tech": "Jennifer Williams",
       "date": "2020-06-05T23:26:45.910Z",
       "id": 5
+    },
+    {
+      "message": "Update Mac OS",
+      "attention": true,
+      "tech": "Jocelyn Jeriah",
+      "date": "2020-06-05T23:42:18.113Z",
+      "id": 6
+    },
+    {
+      "message": "Setup Nvidia",
+      "attention": false,
+      "tech": "Brendan Cooney",
+      "date": "2020-06-05T23:42:53.118Z",
+      "id": 7
     }
   ],
   "techs": [
@@ -56,6 +70,21 @@
       "firstName": "Jennifer",
       "lastName": "Williams",
       "id": 4
+    },
+    {
+      "firstName": "Jocelyn",
+      "lastName": "Jeriah",
+      "id": 5
+    },
+    {
+      "firstName": "Brendan",
+      "lastName": "Cooney",
+      "id": 6
+    },
+    {
+      "firstName": "Jordan",
+      "lastName": "Catalano",
+      "id": 7
     }
   ]
 }
