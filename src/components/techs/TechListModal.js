@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import TechItem from './TechItem';
@@ -15,7 +15,8 @@ const TechListModal = ({ getTechs, tech: { techs, loading } }) => {
       <div className='modal-contents'>
         <h4>Technician List</h4>
         <ul className='collection'>
-          {!loading && techs !== null &&
+          {!loading &&
+            techs !== null &&
             techs.map((tech) => <TechItem tech={tech} key={tech.id} />)}
         </ul>
       </div>
